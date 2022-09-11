@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bricks/sliders/SliderFb1.dart';
 import 'package:flutter_bricks/sliders/SliderFb2.dart';
-import 'package:flutter_bricks/sliders/SliderFb3.dart';
+import 'package:flutter_bricks/sliders/SliderFb4.dart';
 
 import 'appBars/AppBarFb2.dart';
 
@@ -30,14 +30,14 @@ class MyApp extends StatelessWidget {
               initialValue: 30,
               onChange: (value) {},
             ),
-            SliderFb3(
+            SliderFb4(
               min: 0,
               max: 100,
               initialValue: 30,
               divisions: 10,
               onChange: (value) {},
             ),
-            SliderFb3(
+            SliderFb4(
               min: 0,
               max: 100,
               initialValue: 30,
