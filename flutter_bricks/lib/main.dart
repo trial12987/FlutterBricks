@@ -4,7 +4,7 @@ import 'package:flutter_bricks/sliders/SliderFb2.dart';
 import 'package:flutter_bricks/sliders/SliderFb3.dart';
 import 'package:flutter_bricks/sliders/SliderFb4.dart';
 
-import 'appBars/GradientAppBarFb1.dart';
+import 'appBars/AppBarFb2.dart';
 
 void main() => runApp(const MyApp());
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        appBar: GradientAppBarFb1(),
+        appBar: AppBarFb2(),
         body: Column(
           children: [
             SliderFb1(
