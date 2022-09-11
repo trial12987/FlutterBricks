@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Material App',
       home: Scaffold(
-        appBar: MallikaAppBar5(),
+        appBar: AppBarFb2(),
         body: Column(
           children: [
             SliderFb1(
